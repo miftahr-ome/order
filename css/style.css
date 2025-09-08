@@ -1,0 +1,91 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+  body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #e0e7ff, #d6e4ff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 400px;
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            background: url(https://miro.medium.com/v2/resize:fit:1200/1*gTFUJzEYStqPoxjXIdM9ZA.jpeg); background-repeat: no-repeat;
+            border-radius: 15px 15px 0 0;
+            height: 200px;
+            position: relative;
+        }
+        .header img {
+            position: absolute;
+            width: 25vh;
+            height: 10vh;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content p {
+            color: #6b7280;
+            font-size: 16px;
+            margin: 15px 0;
+        }
+        .plan {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .plan .details {
+            display: flex;
+            align-items: center;
+        }
+        .plan .details img {
+            width: 40px;
+            margin-right: 10px;
+        }
+        .plan .details p {
+            margin: 0;
+            color: #1f2937;
+        }
+        .plan .details span {
+            color: #6b7280;
+            font-size: 14px;
+        }
+        .plan a {
+            color: #3b82f6;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #2563eb;
+            transition: all 0.3s ease;
+            transform: scale(1.05) rotate(2deg);
+        }
+        .cancel {
+            color: #6b7280;
+            text-decoration: none;
+            margin-top: 15px;
+            display: inline-block;
+        }
